@@ -6,8 +6,15 @@ type person struct {
 	firstName string
 	lastName string
 }
+type agent struct {
+	person
+	licenceToKill bool
+}
 func (p person) speak(){
 	fmt.Println(p.firstName,`says ,"Good morning"`)
+}
+func (sa agent) speak(){
+	fmt.Println(sa.firstName , sa.lastName ,`says ,"Shaken , not stirred"`)
 }
 func main() {
 	x := 7
@@ -25,6 +32,10 @@ func main() {
 		"Natalia":25,
 	}
 	fmt.Println(m)
-	p1 := person{"fokion","sotiropoulos"}
+	p1 := person{"Miss","Moneypenny"}
 	p1.speak()
+	ag1 := agent{person{"James","Bond"},true}
+	ag1.speak()
+	//get the speak method for the person
+	ag1.person.speak()
 }
