@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+type person struct {
+	firstName string
+	lastName string
+}
+func (p person) speak(){
+	fmt.Println(p.firstName,`says ,"Good morning"`)
+}
 func main() {
 	x := 7
 	fmt.Printf("%T\n", x)
@@ -18,4 +25,6 @@ func main() {
 		"Natalia":25,
 	}
 	fmt.Println(m)
+	p1 := person{"fokion","sotiropoulos"}
+	p1.speak()
 }
