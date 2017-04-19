@@ -16,6 +16,13 @@ func (p person) speak(){
 func (sa agent) speak(){
 	fmt.Println(sa.firstName , sa.lastName ,`says ,"Shaken , not stirred"`)
 }
+//polymorphism
+type human interface {
+	speak()
+}
+func saySomething(h human){
+	h.speak()
+}
 func main() {
 	x := 7
 	fmt.Printf("%T\n", x)
@@ -38,4 +45,6 @@ func main() {
 	ag1.speak()
 	//get the speak method for the person
 	ag1.person.speak()
+	saySomething(p1)
+	saySomething(ag1)
 }
