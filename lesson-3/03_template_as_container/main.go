@@ -11,7 +11,11 @@ func main(){
 	if err != nil{
 		log.Fatal(err)
 	}
-	err = tmpl.Execute(os.Stdout,nil)
+	tmpl , err = tmpl.ParseFiles("file2","file3")
+	if err != nil{
+		log.Fatal(err)
+	}
+	err = tmpl.ExecuteTemplate(os.Stdout,"file2",nil)
 	if err != nil{
 		log.Fatal(err)
 	}
