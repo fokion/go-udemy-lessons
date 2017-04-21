@@ -1,15 +1,13 @@
 package main
 
 import (
-	"html/template"
-	"os"
-	"strings"
+"html/template"
+"os"
+"strings"
 )
 
 var tmpl *template.Template
-func init(){
-	tmpl = template.Must(template.ParseGlob("views/*.html"))
-}
+
 
 type Person struct {
 	Name string
@@ -22,6 +20,18 @@ type Car struct {
 type DB struct {
 	People []Person
 	Cars []Car
+}
+var templateFunctions = template.FuncMap{
+	"threeLetters":firstThreeLetters,
+	"lowerCase":strings.ToLower,
+}
+func firstThreeLetters(s string) string{
+	s = strings.TrimSpace(s)
+	s = s[:3]
+	return s
+}
+func init(){
+	tmpl = template.Must(template.New("index.html").Funcs(templateFunctions).ParseFiles("views/index.html"))
 }
 func main()  {
 	var people = []Person{}
