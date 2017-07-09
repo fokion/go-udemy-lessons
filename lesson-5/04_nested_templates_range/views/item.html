@@ -1,0 +1,14 @@
+{{define "item"}}
+
+<li>
+    {{if .Completed}}
+    <del>
+    {{.Name}}
+    </del>
+    {{else}}
+    <strong>
+    {{.Name}}
+    </strong>
+    {{end}}
+</li>
+{{end}}
