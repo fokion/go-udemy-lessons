@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c393b29-9f24-4a3a-bb57-3fa8f47daa14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-6/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson-7/main.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson-6/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -81,6 +81,16 @@
               <folding>
                 <element signature="e#14#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson-7/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +184,7 @@
         <option value="$PROJECT_DIR$/lesson-5/04_nested_templates_range/views/item.html" />
         <option value="$PROJECT_DIR$/lesson-5/04_nested_templates_range/main.go" />
         <option value="$PROJECT_DIR$/lesson-6/main.go" />
+        <option value="$PROJECT_DIR$/lesson-7/main.go" />
       </list>
     </option>
   </component>
@@ -184,8 +195,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="width" value="962" />
+    <option name="x" value="747" />
+    <option name="width" value="626" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -216,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="go-udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson-7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,11 +332,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy" />
       <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy\lesson-5\" />
       <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy\lesson-5" />
       <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy\lesson-4" />
       <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy\lesson-4\02_struct\views" />
-      <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy\lesson-4\01_data_structures\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fokion-1\Documents\GitHub\go-udemy" />
@@ -330,13 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run main.go">
-    <configuration default="false" name="go run main.go (1)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go-udemy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/lesson-2/main.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run main.go (5)">
     <configuration default="false" name="go run main.go (2)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go-udemy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -359,6 +378,12 @@
       <module name="go-udemy" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/lesson-6/main.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run main.go (5)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go-udemy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/lesson-7/main.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -785,19 +810,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (5)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -824,16 +849,15 @@
       <workItem from="1497470635524" duration="52000" />
       <workItem from="1498683000017" duration="46000" />
       <workItem from="1499294665350" duration="677000" />
-      <workItem from="1499615507781" duration="4226000" />
+      <workItem from="1499615507781" duration="5285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30494000" />
+    <option name="totallyTimeSpent" value="31553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="0" width="962" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="747" y="0" width="626" height="735" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -844,12 +868,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34566596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5360656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -912,14 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson-4/04_functions_in_templates/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson-4/01_data_structures/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1261,6 +1277,14 @@
           <folding>
             <element signature="e#14#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson-7/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
